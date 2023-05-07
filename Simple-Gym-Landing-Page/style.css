@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background: url(/Simple-Gym-Landing-Page/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'poppins', sans-serif;
+}
+
+.left-section{
+    color: white;
+    border: 2px solid red;
+    display: inline-block;
+}
+
+.mid-section{
+    color: white;
+    height: 66px;
+    display: block;
+    width: 44%;
+    margin: auto;
+    overflow: auto;
+}
+
+.right-section{
+    color: white;
+    border: 2px solid red;
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top: 0px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+.navbar ul li a:hover {
+    background-color: red;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.navbar ul li {
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+}
+
+.btn button {
+    width: 90px;
+    height: 40px;
+}
+
+.btn button a {
+    font-size: 22px;
+    text-decoration: none;
+}
