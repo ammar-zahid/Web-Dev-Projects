@@ -78,3 +78,48 @@ body {
     margin-left: 30px;
     margin-top: 5px;
 }
+
+.registeration-form {
+    border: solid red;
+    border-radius: 15px;
+    width: 350px;
+    height: 400px;
+    position: relative;
+    top: 80px;
+    left: 80px;
+}
+
+.registeration-form h3 {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.registeration-form label {
+    color: white;
+    margin-left: 40px;
+}
+.registeration-form input {
+    border-radius: 10px;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.form-btn-div {
+    text-align: center;
+}
+.registeration-form .form-btns {
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 8px 10px 8px 10px;
+    background-color: red;
+    color: white;
+    margin-left: 10px;
+}
+
+.registeration-form .form-btns:hover {
+    transform: scale(1.1);   
+}
