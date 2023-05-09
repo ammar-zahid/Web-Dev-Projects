@@ -1,1 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ------------ */
+/* ASSETS */
+/* ------------ */
+
+:root {
+    --purple-color-code: #9401d9;
+    --dark-grey-color: #4d4d4d;
+    --light-blue-background: #ebf1ff;
+    --red-button-color: #e74c3c;
+}
+
+.container {
+    max-width: 1030px;
+    margin-inline: auto;
+    padding: 20px;
+}
+
+/* ------------ */
+/* NAV SECTION */
+/* ------------ */
+
+.nav-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-logo img {
+    width: 100px;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navlist li {
+    list-style: none;
+}
+
+.navlist li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--dark-grey-color);
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+}
+
+.navlist {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.nav-button {
+    border: none;
+    background-color: #e74c3c;
+    padding: 10px 15px;
+    border-radius: 30px;
+}
