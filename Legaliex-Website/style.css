@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poppins&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@400;800&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -30,6 +29,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 0px 5px -2px #5c5c5c;
+    padding: 10px 100px;
 }
 
 .nav-logo img {
@@ -67,4 +70,44 @@
     background-color: #e74c3c;
     padding: 10px 15px;
     border-radius: 30px;
+}
+
+/* ------------ */
+/* HERO SECTION */
+/* ------------ */
+
+.hero-section {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.hero-section .main-heading {
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-image img {
+    width: 460px;
+}
+
+.main-heading h5 {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--dark-grey-color);
+}
+
+.main-heading h1 {
+    font-size: 55px;
+    line-height: 75px;
+    font-weight: 800;
+    color: var(--dark-grey-color);
+}
+
+.main-heading h1 span {
+    color: var(--purple-color-code);
+}
+
+.main-heading h3 {
+    color: var(--dark-grey-color);
+    font-weight: 400;
 }
