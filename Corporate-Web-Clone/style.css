@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* --------- */
+/* ASSETS */
+/* --------- */
+
+:root {
+    --blue-theme-color: #4285f4;
+    --primary-text-color: #000000;
+    --secondary-text-color: #808080;
+    --grey-background-color: #f6f6f6;
+}
+
+.container {
+    max-width: 1180px;
+    margin-inline: auto;
+}
+
+/* --------- */
+/* NAV SECTION */
+/* --------- */
+
+.navbar {
+    padding: 30px 0px;
+}
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .nav-content .logo a {
+    text-decoration: none;
+    color: var(--primary-text-color);
+    font-size: 32px;
+}
+
+.navbar .nav-content .logo a span {
+    color: var(--blue-theme-color);
+}
+
+.navbar .nav-content .nav-list ul {
+    display: flex;
+    gap: 30px;
+}
+
+.navbar .nav-content .nav-list ul li {
+    list-style: none;
+}
+
+.navbar .nav-content .nav-list ul li a {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.navbar .nav-content .nav-list ul li a:hover {
+    color: var(--blue-theme-color);
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
