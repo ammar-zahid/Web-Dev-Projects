@@ -218,3 +218,57 @@
     position: relative;
     bottom: 40px;
 }
+
+/* --------- */
+/* COMMUNICATE SECTION */
+/* --------- */
+
+.communicate-section {
+    padding-top: 100px;
+}
+
+.communicate-content {
+    display: flex;
+    gap: 60px;
+}
+
+.communicate-section .communicate-content .left-section img {
+    width: 600px;
+    height: 600px;
+    padding-left: 40px;
+}
+
+.communicate-section .communicate-content .right-section h1 {
+    font-size: 40px;
+    padding: 140px 20px 30px 0px;
+}
+
+.communicate-section .communicate-content .right-section p {
+    padding-right: 20px;
+    line-height: 30px;
+    color: var(--secondary-text-color);
+}
+
+.communicate-section .communicate-content .right-section .testimonial {
+    margin-top: 20px;
+    padding: 20px 40px;
+    box-shadow: 0px 0px 15px -1px #bcbcbc;
+    border-top: 8px solid var(--blue-theme-color);
+}
+
+.communicate-section .communicate-content .right-section .testimonial .info {
+    display: flex;
+}
+
+.communicate-section .communicate-content .right-section .testimonial .info h3 {
+    padding-left: 10px;
+}
+
+.communicate-section .communicate-content .right-section .testimonial img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.communicate-section .communicate-content .right-section .testimonial .comment {
+    padding-top: 20px;
+}
