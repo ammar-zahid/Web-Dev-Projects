@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --header-bg-color: #F5FBFF;
+    --service-sec-color1: #83c4ff;
+    --service-sec-color2: #5db2ff;
+    --primary-color: #009dff;
+    --department-sec-color: #f5fbff;
+    --footer-color: #1f1f1f;
+    --footer-icons-color: #707070;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1920px;
+    padding: 30px;
+}
