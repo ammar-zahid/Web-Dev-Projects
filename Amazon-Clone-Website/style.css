@@ -10,6 +10,7 @@
     background-color: #0f1111;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .nav-logo {
@@ -34,10 +35,6 @@
 
 /* BOX 2 */
 
-.nav-address {
-    margin-left: 20px;
-}
-
 .add-first {
     color: #cccccc;
     font-size: 0.8rem;
@@ -58,7 +55,6 @@
 
 .nav-search {
     display: flex;
-    margin-left: 20px;
 }
 
 select {
@@ -96,15 +92,8 @@ select {
     border: none;
 }
 
-.select-country {
-    margin-left: 20px;
-}
-
 /* BOX 5 */
 
-.signin {
-    margin-left: 20px;
-}
 .signin p span {
     font-size: 0.75rem;
 }
@@ -118,9 +107,7 @@ select {
 }
 
 /* BOX 6 */
-.orders {
-    margin-left: 20px;
-}
+
 .orders p span {
     font-size: 0.75rem;
 }
@@ -134,7 +121,6 @@ select {
 
 .cart {
     display: flex;
-    margin-left: 20px;
 }
 
 .cart-logo {
@@ -145,4 +131,30 @@ select {
 .cart p {
     margin-top: 6px;
     font-weight: 600;
+}
+
+.panel {
+    background-color: #232f3e;
+    color: white;
+    padding: 8px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner-panel-1 {
+    display: flex;
+    gap: 15px;
+}
+.item1 {
+    display: flex;
+    margin-right: 10px;
+}
+
+.items p {
+    font-weight: 400;
+    margin-left: 3px;
+}
+
+.item6 {
+    float: right;
 }
