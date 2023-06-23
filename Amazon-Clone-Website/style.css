@@ -62,7 +62,7 @@
 }
 
 select {
-    background-color: lightgray;
+    background-color: #f0f0f0;
 }
 
 .select-search {
@@ -84,4 +84,65 @@ select {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     font-size: 25px;
+}
+
+/* BOX 4 */
+
+.select-country select {
+    height: 29px;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.select-country {
+    margin-left: 20px;
+}
+
+/* BOX 5 */
+
+.signin {
+    margin-left: 20px;
+}
+.signin p span {
+    font-size: 0.75rem;
+}
+
+.signin select {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+/* BOX 6 */
+.orders {
+    margin-left: 20px;
+}
+.orders p span {
+    font-size: 0.75rem;
+}
+
+.orders p {
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+/* BOX 7 */
+
+.cart {
+    display: flex;
+    margin-left: 20px;
+}
+
+.cart-logo {
+    font-size: 1.5rem;
+    margin-right: 3px;
+}
+
+.cart p {
+    margin-top: 6px;
+    font-weight: 600;
 }
