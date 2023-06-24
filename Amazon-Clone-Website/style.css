@@ -158,3 +158,33 @@ select {
 .item6 {
     float: right;
 }
+
+/* HERO SECTION */
+
+.hero-section {
+    background-image: url("./images/hero_image.jpg");
+    height: 520px;
+    background-size: cover;
+}
+
+.hero-msg {
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    padding-top: 230px;
+}
+
+.msg {
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    background-color: white;
+    width: 90%;
+    padding: 3px 0px;
+    font-size: 0.85rem;
+}
+
+.msg a {
+    color: #007185;
+    text-decoration: none;
+}
