@@ -165,6 +165,7 @@ select {
     background-image: url("./images/hero_image.jpg");
     height: 520px;
     background-size: cover;
+    /* padding-bottom: 200px; */
 }
 
 .hero-msg {
@@ -180,11 +181,51 @@ select {
     justify-content: center;
     background-color: white;
     width: 90%;
-    padding: 3px 0px;
-    font-size: 0.85rem;
+    padding: 5px 0px;
+    font-size: 1rem;
 }
 
 .msg a {
     color: #007185;
     text-decoration: none;
+}
+
+/* SHOP SECTION */
+
+.shop-section {
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-top: -200px; */
+    background-color: #b1c5c6;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 23%;
+    height: 348px;
+    background-color: white;
+    position: relative;
+    top: -200px;
+    margin-bottom: 30px;
+}
+
+.box-img {
+    height: 232px;
+    background-size: cover;
+    background-repeat: none;
+    margin: 1rem 0rem;
+}
+
+.box-content {
+    margin: 0rem 1rem;
+}
+
+.box-content h2 {
+    font-size: 1.25rem;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+.box-content p {
+    color: #007185;
 }
