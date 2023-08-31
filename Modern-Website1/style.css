@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "General Sans Regular";
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  width: 100%;
+  background-color: black;
+}
+
+#hero {
+  position: relative;
+  color: white;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+
+#nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px 40px;
+  color: white;
+}
+
+#nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#heading {
+  margin-top: 90px;
+}
+
+#heading h1 {
+  letter-spacing: 3px;
+  margin-left: 30px;
+  margin-bottom: -15px;
+  opacity: 0.6;
+  line-height: 1;
+  text-transform: uppercase;
+  font-size: 10vw;
+  font-weight: 700;
+}
+
+#heading #secondh1 {
+  margin-left: 180px;
+}
+
+.blocktext {
+  width: fit-content;
+  text-align: right;
+}
+
+#heading h5 {
+  font-size: 16px;
+  margin-top: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+#chotiheadings {
+  margin-top: 90px;
+  padding-right: 50px;
+}
+
+#chotiheadings h5 {
+  text-transform: uppercase;
+  margin-top: 0.5vw;
+  font-size: 1vw;
+  text-align: right;
+}
+
+#herofooter {
+  padding: 0px 2vw;
+  width: 100%;
+  position: absolute;
+  bottom: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#herofooter a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+#herofooter #iconset {
+  display: flex;
+  gap: 5px;
+}
+
+#herofooter .circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #888;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#second {
+  padding-right: 10vw;
+  color: white;
+  padding-top: 100px;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+
+.elem {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 3.5vw 3vw;
+  padding-right: 0;
+  border-top: 1px solid #888;
+}
+
+.elemlast {
+  border-bottom: 1px solid #888;
+}
+
+.elem h1 {
+  text-transform: uppercase;
+  font-size: 7vw;
+  font-weight: 700;
+  letter-spacing: 1px;
+  opacity: 0.7;
+}
+
+.elem img {
+  position: absolute;
+  height: 140%;
+  z-index: 999;
+  display: none;
+}
+
+#about {
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 10vw 5vw;
+  padding-left: 40vw;
+  width: 100%;
+  background-color: black;
+}
+
+#textabout {
+  width: 25rem;
+}
+
+#textabout h5 {
+  text-transform: uppercase;
+  opacity: 0.6;
+  margin-bottom: 10px;
+}
+
+#textabout p {
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+#about img {
+  width: 200px;
+}
+
+#textabout a {
+  padding: 12px 22px;
+  border: 1px solid white;
+  border-radius: 100px;
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+#subscribe {
+  color: white;
+  background-color: black;
+  padding: 20px 30px;
+  padding-bottom: 7vw;
+}
+
+#subscribe h5 {
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+
+#subscribe h3 {
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+#footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 30px;
+}
+
+#footerleft {
+  display: flex;
+  gap: 20px;
+}
+
+#footerright {
+  display: flex;
+  gap: 30px;
+}
+
+#footer a {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+}
