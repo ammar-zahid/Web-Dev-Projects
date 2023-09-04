@@ -175,7 +175,8 @@ body {
   position: absolute;
   height: 140%;
   z-index: 999;
-  display: none;
+  display: block;
+  opacity: 0;
 }
 
 #about {
